@@ -1,3 +1,5 @@
+const nuevoModulo = require("./06");
+
 function mayorQueCincuenta(num) {
   // La función recibe un argumento llamado num.
   // Retorna true si el argumento "num" es mayor que cincuenta.
@@ -6,6 +8,11 @@ function mayorQueCincuenta(num) {
   // 51 ---> true
   // 15 ---> false
   // Tu código:
+  if(num > 50){
+    return true
+  } else{
+    return false
+  }
 }
 
 module.exports = mayorQueCincuenta;
